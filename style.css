@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Merriweather', serif;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+/* banner css  */
+.banner-section{
+   
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(./Image/Banner\ Image.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 130px 0;
+    margin-top: 30px;
+ 
+    
+}
+.banner-section h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    color: #fff;
+    
+}
+.banner-section h2{
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    color: #fff;
+ 
+}
+
+/* holiday section  */
+.holiday{
+    margin-top: 60px;
+}
+.holiday-section{}
+.holiday-section h1{
+    color: #f00;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: inter;
+}
+.holiday-section h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 40px;
+}
+.holiday-section h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+.holiday-section img{
+    margin-top: 30px;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+/* wellcome section  */
+.welcome{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)),url(./Image/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+.welcome-img{
+    padding: 25px 25px 25px 120px;
+    display: flex;
+    align-items: center;
+}
+.welcome-img img{
+    padding: 40px;
+}
+.welcome-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.welcome-content h2{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.welcome-content button{
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    margin-top: 20px;
+    border: none;
+    font-family: Merriweather;
+    margin-left: 30px;
+}
+.welcome-content button:hover{
+    box-shadow: 0 0 10px;
+}
+
+/* BOOKING SECTION  */
+.booking{
+    background-color: #ffe9e9;
+    margin-top: 50px;    
+
+
+}
+.booking-section{
+    padding: 70px 20px;
+}
+.booking-content h2 span{
+    color: red;
+}
+.booking-content h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.booking-content .btn{
+    background-color: red;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 7PX 7PX;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.booking-content .btn:hover{
+    box-shadow: black;
+}
+
+/* bonus section  */
+.bonus{
+    margin-top: 40px;
+    padding: 120px;
+}
+.bonus-section{
+    display: flex;
+}
+.bonus-left{
+    width: 30%;
+    padding: 40px;
+}
+.bonus-left h4{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: -140px;
+}
+.bonus-left h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 10px;
+}
+.bonus-left p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 10px;
+}
+.bonus-img{
+    width: 40%;
+    margin-top: -40px;
+    height: 300px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bonus-img img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #070211;
+    border-radius: 50%;
+  
+}
+.bonus-right{
+    width: 30%;
+    padding: 40px;
+    margin-top: -30px;
+}
+.bonus-right h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bonus-right p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.bonus-right img{
+margin-top: 20px;}
+
+/* functional-section  */
+.functional{}
+.functional-section{
+    padding: 80px;
+}
+.functional-content{}
+.functional-content h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.functional-content h1 span{
+    color: red;
+}
+.functional-content h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.functional-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 8px;
+}
+
+
+/* discount section  */
+.discount-section{
+  
+}
+.discount-img{
+    margin-top: -980px;
+}
+.discount-img .img-1{
+    position: relative;
+    top: 1045px;
+    left: 715px;
+    z-index: 1;
+}
+.discount-img .img-2{
+    position: relative;
+    left: 871px;
+    top: 671px;
+}
+.discount-img .img-3{
+    position: relative;
+    left: -60px;
+    top: 206px;
+    z-index: 1;
+}
+.discount-img .img-4{
+    position: relative;
+}
+
+/* protfolio section  */
+.portfolio{}
+.portfolio-section{}
+.portfolio-section h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 60px;
+}
+.portfolio-section h1{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.portfolio-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.portfolio-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+}
+.protfolio-img2{
+    margin-top: 20px;
+}
+.protfolio-img2{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio-img .pic1{
+    transition: .8s;
+}
+.portfolio-img .pic1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    
+}
+.portfolio-img .pic2{
+    transition: .8s;
+}
+
+.portfolio-img .pic2:hover{
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    
+}
+  
+.portfolio-img .pic3{
+    transition: .8s;
+}
+
+.portfolio-img .pic3:hover{
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    
+}
+  
+.protfolio-img2 .pic4{
+    transition: .8s;
+}
+
+.protfolio-img2 .pic4:hover{
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    
+}
+.protfolio-img2 .pic5{
+    transition: .8s;
+}
+
+.protfolio-img2 .pic5:hover{
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    
+}
+.protfolio-img2 .pic6{
+    transition: .8s;
+}
+
+.protfolio-img2 .pic6:hover{
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    
+}
+
+/* newsletter section  */
+
+.newsletter{
+    
+   
+}
+.newsletter-section{
+    background-color: #fff2f2;
+    padding: 100PX 0;
+    margin-top: 50px;
+}
+.newsletter-img{
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+margin: auto;    
+margin-bottom: 10px;
+}
+.newsletter-text h1{
+    color: #070211;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-bottom: 20px;
+}
+.newsletter-text h2{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 15px;
+} 
+.newsletter-btn input{
+    width: 400px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+border: none;
+}
+.newsletter-btn button{
+    width: 150px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+margin-left: -30px;
+border: none;
+display: inline-block;
+
+}
+.newsletter-btn email{
+    font-size: 10px;
+}
+
+/* footer-section  */
+.footer{
+}
+.footer-section{
+    padding: 160px 0;
+    display: flex;
+    background-color: #070211;
+}
+.footer-left{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500; 
+    line-height: 40px;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 120px;
+    
+}
+.footer-right{
+    
+display: flex;
+position: relative;
+top: -110px;
+right: -500px;
+display: inline-block;
+}
+.footer-right span{
+    font-size: 20px;
+    margin-left: 6px;
+    color: #FFF;
+    height: 100%;
+    position: relative;
+    top: 25px;
+    left: -33px;
+    
+   
+}
+.footer-right .c-number{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #FFF;
+}
+.footer-right .w-icon{
+    color: #FFF;
+    position: relative;
+    top: -2px;
+    right: 25px;
+    
+}
+.footer-right .w-website{
+    color: #FFF;
+    margin-top: -24px;
+}
+
+.footer-icon{
+    position: relative;
+    top: 65px;
+    left: -67px;
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: 19px;
+    margin-left: -70px;
+    
+    
+}
+
+.footer-b-left{
+    position: relative;
+    top: 180px;
+    left: -750px;
+    color: #FFF;
+}
+.footer-b-right{
+    position: relative;
+    color: #FFF;
+    top: 180px;
+    left: -120px;
+}
